@@ -1,0 +1,16 @@
+[submodule "rpms/xen"]
+	path = rpms/xen
+	url = git@github.com:beshleman/xen-rpm.git
+[submodule "rpms/sbsigntools"]
+	path = rpms/sbsigntools
+	url = git@github.com:beshleman/sbsigntools-rpm.git
+[submodule "rpms/xen-unified"]
+	path = rpms/xen-unified
+	url = git@github.com:beshleman/xen-unified-efi-rpm.git
+[submodule "tools/efi-signing-service"]
+	path = tools/efi-signing-service
+	url = git@gitlab.com:xcp-ng/efi-signing-service.git
+[submodule "rpms/deps/binutils"]
+	path = rpms/deps/binutils
+	url = git@github.com:beshleman/binutils-rpm.git
+	branch = xcp-ng-8.2
